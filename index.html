@@ -32,11 +32,151 @@
     }
   </style>
 </head>
-<body>
-     <header>
+<body class="font-manrope">
+     <header class=" md:container md:mx-auto">
+      <nav>
         <!-- nav bar -->
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                <li><a href="">  Home </a></li>
+                <li><a href="">Pages </a></li>
+                <li><a href="">Contact </a></li>
+                <li><a href="">Blog </a></li>
+                
+                <li><a href="">About </a></li>
+                
+
+                </ul>
+              </div>
+              <a class="btn btn-ghost text-xl lg:text-4xl font-extrabold gap-0">Hockey<span style="color: #FF4240;">’</span>s</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                  <li><a href="">Home </a></li>
+                  <li><a href="">Pages </a></li>
+                  <li><a href="">Contact </a></li>
+                  <li><a href="">Blog </a></li>
+                  
+                  <li><a href="">About </a></li>
+                  </ul>
+            </div>
+            <div class="navbar-end">
+              <a class="btn btn-error text-white">Get Ticket</a>
+            </div>
+          </div>
+        </nav>
+        <!-- slider -->
+        <div class="carousel w-full">
+          <!-- slider 1 -->
+          <div id="slide1" class="carousel-item relative w-full">
+           
+          
+         
+ 
+            <img src="Images/1.png" class="w-full " />
+
+          
+            
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide4" class="btn btn-circle">❮</a> 
+              <a href="#slide2" class="btn btn-circle">❯</a>
+            </div>
+          </div> 
+          <!-- slider2 -->
+          <div id="slide2" class="carousel-item relative w-full">
+            <img src="Images/hockey1.jpg" class="w-full relative" />
+          
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide1" class="btn btn-circle">❮</a> 
+              <a href="#slide3" class="btn btn-circle">❯</a>
+            </div>
+          </div> 
+          <!-- slider3 -->
+          <div id="slide3" class="carousel-item relative w-full">
+            <img src="Images/hockey2.jpg" class="w-full " />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide2" class="btn btn-circle">❮</a> 
+              <a href="#slide4" class="btn btn-circle">❯</a>
+            </div>
+          </div> <!-- slider4 -->
+          <div id="slide4" class="carousel-item relative w-full">
+            <img src="Images/hockey1.jpg" class="w-full " />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide3" class="btn btn-circle">❮</a> 
+              <a href="#slide1" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+        </div>
      </header>
-     <main></main>
+
+     <main class="md:container md:mx-auto">
+      <!-- Hockeys Club -->
+      <section>
+        <div class="flex items-center justify-center">
+          <div class="">
+            <h4 class=" lg:text-4xl text-xl font-extrabold">Professional Hockeys Club</h4>
+            <p class="text-xl font-medium mt-3">The Game Of Hockey never gets old</p>
+          </div>
+          </div>
+          <!-- 87% -->
+           <div class=" grid lg:grid-cols-4 grid-cols-1 md:grid-cols-2 gap-10">
+           <div class="card lg:w-94 ">
+            <figure class="px-10 pt-10">
+              <div class="radial-progress text-primary rotate-[200deg]" style="--value:70 ;" role="progressbar">     <span style="rotate: -200deg;">87%</span></div>
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title font-medium text-xl">Prayer Facility</h2>
+              <p>Grand Valley Hockey's Club Students share a single place of prayer</p>
+            
+            </div>
+          </div>
+          <!-- 95% -->
+
+          <div class="card lg:w-96 ">
+            <figure class="px-10 pt-10">
+              <div class="radial-progress text-primary text-red-500 rotate-[300deg]" style="--value:95 ;" role="progressbar">     <span style="rotate:-300deg;">95%</span></div>
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title font-medium text-xl"> Experienced Coach</h2>
+              <p> The difference between a successful coach and a great coach is the ability to inspire and empower their players & We have that.</p>
+            
+            </div>
+          </div>
+          <!-- 90% -->
+          <div class="card lg:w-96  ">
+            <figure class="px-10 pt-10">
+              <div class="radial-progress text-primary text-lime-800 rotate-[250deg]" style="--value:70 ;" role="progressbar">     <span style="rotate: -250deg;">90%</span></div>
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title font-medium text-xl"> Senior Player</h2>
+              <p> Living the senior athlete life. ..</p>
+            
+            </div>
+          </div>
+          <!-- 80% -->
+          <div class="card lg:w-96  ">
+            <figure class="px-10 pt-10">
+              <div class="radial-progress text-primary text-cyan-600 rotate-[180deg]" style="--value:70 ;" role="progressbar">     <span style="rotate: -180deg;">80%</span></div>
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title font-medium text-xl">  Training Ground</h2>
+              <p>We have the largest & best training ground  with best trainer</p>
+            
+            </div>
+          </div>
+          
+                   </div>
+        
+
+
+       
+      </section>
+     </main>
      <footer></footer>
 
 
